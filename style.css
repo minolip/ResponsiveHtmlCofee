@@ -160,6 +160,85 @@ label{
     margin-bottom: 10px;
 }
 
+#info{
+    position: relative;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content3 h2{
+    font-size: 60px;
+    font-weight: 600;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-bottom: 60px;
+    margin-top: 40px; 
+    color: #301d04;
+}
+
+.content3 img{
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.content3 h4{
+    font-size: 40px;
+    font-weight: 500;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    margin-bottom: 20px;
+    margin-top: 40px; 
+    color: #301d04;
+}
+
+.content3 p{
+    color: #301d04;
+    text-align: justify;
+    line-height: 22px;
+}
+
+.details1, .details2, .details3{
+    max-width: 800px;
+    margin-bottom: 30px;
+}
+
+.details1 .image{
+    width: 200px;
+    height: 200px;
+    background: url(info2.jpg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0px;
+}
+
+.details2 .image{
+    width: 200px;
+    height: 200px;
+    background: url(info3.jpg);
+    border-radius: 50%;
+    float: right;
+    shape-outside: circle();
+    margin: 30px 0px 30px 30px;
+}
+
+.details3 .image{
+    width: 200px;
+    height: 200px;
+    background: url(info4.jpg);
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+    margin: 30px 30px 30px 0px;
+}
+
 #services{
     position: relative;
     width: 100%;
@@ -201,15 +280,6 @@ label{
 .item i{
     margin-bottom: 10px;
     font-size: 100px;
-}
-
-#info{
-    position: relative;
-    width: 100%;
-    min-height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;  
 }
 
 #contacts{
@@ -413,6 +483,44 @@ footer p{
         font-weight: 400;
     }
 
+    .content3 h2{
+        font-size: 50px;
+        font-weight: 500;
+        color: #301d04;
+    }
+    
+    .content3 img{
+        max-width: 300px;
+    }
+    
+    .content3 h4{
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .content3 p{
+        line-height: 15px;
+    }
+    
+    .details1, .details2, .details3{
+        max-width: 300px;
+    }
+    
+    .details1 .image{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .details2 .image{
+        width: 180px;
+        height: 180px;
+    }
+    
+    .details3 .image{
+        width: 180px;
+        height: 180px;
+    }
+
     .content4 h2{
         font-size: 50px;
         font-weight: 500;
@@ -479,6 +587,28 @@ footer p{
         font-weight: 400;
     }
 
+    .content3 h2{
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .content3 img{
+        max-width: 200px;
+    }
+    
+    .content3 h4{
+        font-size: 20px;
+        font-weight: 300;
+    }
+    
+    .content3 p{
+        line-height: 10px;
+    }
+    
+    .details1, .details2, .details3{
+        max-width: 200px;
+    }
+
     .item i{
         font-size: 40px;
     }
@@ -508,6 +638,40 @@ footer p{
 
     .content2{
         padding: 20px;
+    }
+
+    
+    .content3 h2{
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .content3 img{
+        max-width: 180px;
+    }
+
+    .content3 h4{
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .details1, .details2, .details3{
+        max-width: 180px;
+    }
+
+    .details1 .image{
+        width: 150px;
+        height: 150px;
+    }
+
+    .details2 .image{
+        width: 150px;
+        height: 150px;
+    }
+
+    .details3 .image{
+        width: 150px;
+        height: 150px;
     }
 
     .content4 h2{
