@@ -394,6 +394,10 @@ footer p{
         font-size: 14px;
     }
 
+    .media-icons a:not(:last-child){
+        margin-right: 40px;
+    }
+
     .media-icons a{
         margin-bottom: 20px;
     }
@@ -490,11 +494,11 @@ footer p{
 
 @media (max-width: 320px){
     header{
-        padding: 30px 30px;
+        padding: 50px 60px;
     }
 
     .content{
-        margin: 50px 30px;
+        margin: 50px 60px;
     }
 
     .media-icons a{
@@ -521,5 +525,9 @@ footer p{
 
     .content5 .address .search-box input{
         min-width: 10px;
+    }
+
+    footer p{
+        font-size: 10px;
     }
 }
