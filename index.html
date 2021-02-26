@@ -16,11 +16,11 @@
         <header>
             <h2><a href="#" class="logo">logo</a></h2>
             <div class="navigation">
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#info">Info</a>
-                <a href="#services">Services</a>
-                <a href="#contacts">Contacts</a>
+                <a onClick="closeMenu()" href="#home">Home</a>
+                <a onClick="closeMenu()" href="#about">About</a>
+                <a onClick="closeMenu()" href="#info">Info</a>
+                <a onClick="closeMenu()" href="#services">Services</a>
+                <a onClick="closeMenu()" href="#contacts">Contacts</a>
             </div>
             <label for="check">
                 <i class="fas fa-bars menu-btn"></i>
@@ -134,6 +134,14 @@
             <p>Copyright © 2021 cofeecylonltd. </p>
         </div>
     </footer>
+    <script>
+        function closeMenu(){
+            var a = document.getElementById("check");
+            if(a.checked){
+                a.checked = false;
+            }
+        }
+    </script>
 </body>
 
 </html>
