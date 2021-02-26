@@ -494,11 +494,11 @@ footer p{
 
 @media (max-width: 320px){
     header{
-        padding: 50px 60px;
+        padding: 30px 30px;
     }
 
     .content{
-        margin: 50px 60px;
+        margin: 50px 30px;
     }
 
     .media-icons a{
